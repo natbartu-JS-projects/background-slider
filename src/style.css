@@ -67,14 +67,15 @@ body::before {
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
+  border-radius: 60px;
 }
 
 .left-arrow {
-  left: calc(15vw - 65px);
+  left: calc(13vw - 65px);
 }
 
 .right-arrow {
-  right: calc(15vw - 65px);
+  right: calc(13vw - 65px);
 }
 
 .arrow:focus {
